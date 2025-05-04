@@ -158,10 +158,9 @@ class DynamicSelect {
             };
         });
 
-        // Удалите или закомментируйте следующие строки
-        /*this.element.querySelector('.dynamic-select-header').onclick = () => {
+        this.element.querySelector('.dynamic-select-header').onclick = () => {
             this.element.querySelector('.dynamic-select-header').classList.toggle('dynamic-select-header-active');
-        };*/  
+        };  
         
 
         if (this.selectElement.id && document.querySelector('label[for="' + this.selectElement.id + '"]')) {
