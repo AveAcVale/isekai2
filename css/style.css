@@ -204,7 +204,7 @@ li p.product {
 }
 
 .dynamic-select .dynamic-select-header::after {
-	content: "";
+	/*content: "";*/
 	display: block;
 	position: absolute;
 	top: 50%;
