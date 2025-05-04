@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Фестиваль торговой гильдии</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+	  <div>
+	    <h1 id="eventname">ФТГ</h1>
+	    <div class="switch">
+	      <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+	      <label for="language-toggle"></label>
+	      <span class="on">RU</span>
+	      <span class="off">EN</span>
+	    </div>
+	  </div>
+	  <div class="chooser">
+        <label for="">
+          <input type="radio" value="1" name="stage"/>
+          <span>I</span>
+        </label>
+        <label for="">
+          <input type="radio" value="2" name="stage"/>
+          <span>II</span>
+        </label>
+        <label for="">
+          <input type="radio" value="3" name="stage"/>
+          <span>III</span>
+        </label>
+	  </div>
+	  <div class="btn__box">
+        <button class="button reset_btn" role="button">сброс</button>
+        <button class="button build_btn" role="button">маршруты</button>
+      </div>
+    </div>
+
+    <ul id="city-list"></ul>
+    <ol id="routes-list"></ol>
+    <script src="main.js"></script>
+  </body>
+</html>
